@@ -14,4 +14,4 @@ class Snake(Reptile):
         print("Do I say it smells or tastes nice?")
 
 sidney = Snake()
-# sidney.hunt()
+sidney.hunt()     # Reptile class method, the user does not need to see how it works
