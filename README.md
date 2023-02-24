@@ -4,6 +4,10 @@
 Everything in OOP is an object and objects are modelled against real world objects.
 Take a car for example, a car is an object, and it possesses several attributes such as colour, style, make. A car also exhibits several behaviours such as accelerate, brake, steer.
 In OOP we model our "objects" in the same way.
+
+## Why OOP?
+OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex, actively updated or maintained. Additional benefits of OOP include code reusability, scalability and efficiency.
+
 ## Classes
 Of course in OOP we need a way to create our objects, fortunately we have a way to make a template that we use to create objects, we do this via **classes**.
 As said previously classes are templates that we use in order to create objects.

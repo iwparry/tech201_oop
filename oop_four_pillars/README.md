@@ -13,8 +13,8 @@ OOP has 4 main theoretical principles which are:
 - Encapsulation
 - Polymorphism
 ### Abstraction
-Abstraction is the concept of simplifying things, taking away or removing characteristics from something, reducing it to a set of essential characteristics.
-Take this example below
+Abstraction in python is defined as a process of handling complexity by hiding unnecessary information from the user. That enables the user to implement even more complex logic on top of the provided abstraction without understanding all the hidden background complexity.
+
 ```python
 class Animal:   # In the class we can see all the attributes and methods we've set
     def __init__(self):   
@@ -32,7 +32,7 @@ class Animal:   # In the class we can see all the attributes and methods we've s
         print("Onwards and Upwards")
 ```
 ### Inheritance
-Inheritance is the mechanism for creating a child class (subclass) that can inherit behaviour and properties from a parent class (superclass). This allows our code to be reusable, sparing us from having to repeat the same line of code for our subclasses.
+Inheritance is the mechanism for creating a child class (subclass) that can inherit behaviour and properties from a parent class (superclass). This allows our code to be reusable, sparing us from having to repeat the same line of code for our subclasses. This property of OOP forces a more thorough data analysis, reduces development time and ensures a higher level of accuracy.
 ```python
 from animal import Animal # Animal is our base class that we created in another file called animal.py
 
@@ -60,7 +60,7 @@ jeremy_the_reptile.seek_heat()       # Reptile class method
 ```
 ### Encapsulation
 Encapsulation is the method of keeping all the state, variables, and methods private unless declared to the user.
-Encapsulation is about having a simple interface for the user to interact with, and keeping away the inner workings of our object a mystery.
+Encapsulation is about having a simple interface for the user to interact with, and keeping away the inner workings of our object a mystery. Other objects do not have access to this class or the authority to make changes. This characteristic of data hiding provides greater program security and avoids unintended data corruption.
 ```python
 from reptile import Reptile
 
@@ -81,7 +81,7 @@ sidney.hunt()     # Reptile class method, the user does not need to see how it w
 ### Polymorphism
 Polymorphism literally means "many forms".
 Polymorphism is a way of interfacing with objects and receiving different results. For example suppose we have a car, washing machine and a dvd player.
-All of these would have a "start" method but of course despite having the same method we will have different results i.e. the car starts its engine, the washing machine begins washing clothes and the dvd player starts showing the content of the disc inside.
+All of these would have a "start" method but of course despite having the same method we will have different results.
 ```python
 from snake import Snake
 
@@ -110,9 +110,8 @@ peter.constrict() # from self
 ```
 ### What are the Benefits of OOP?
 The benefits of OOP include:
-- Modularity
-- Reusability
-- Flexibility
-- Security 
-- Easily upgradable and scalable
-- Simplicity
+- **Modularity**. Encapsulation enables objects to be self-contained, making troubleshooting and collaborative development easier
+- **Reusability**. Code can be reused through inheritance
+- **Flexibility**. Polymorphism enables a single function to adapt to the class it is placed in. Different objects can also pass through the same interface.
+- **Security**. Using encapsulation and abstraction, complex code is hidden 
+- **Easily upgradable and scalable**. Programmers can implement system functionalities independently.
